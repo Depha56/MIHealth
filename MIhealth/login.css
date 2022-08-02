@@ -1,0 +1,211 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ ul li {
+    display: inline;
+    padding: 10px 5px;
+    list-style: none;
+}
+nav{
+    background-color: rgba(49, 80, 4, 0.336);
+    padding-top: 10PX;
+    padding-bottom: 15PX;
+}
+.icon ul li:hover{
+    background-color: rgb(161, 218, 75);
+    color: white;
+}
+.icon ul li a {
+    color: white;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+
+}
+.wrapper nav a li{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    float: right;
+    list-style: none;
+    margin-top: -30px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.nav  li{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+nav a :hover{
+    background-color: whitesmoke;
+    color: rgb(129, 184, 48);
+    text-decoration: none;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 15px;
+
+}
+.logo h2{
+    padding-left: 200px;
+    font-size: 15px;
+    color: rgb(9, 155, 247);
+    margin-top: -40px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.log{
+    left: 350px;
+    top: 230px;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    border: ridge;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-bottom: 3px;
+    padding-right: 1px;
+    background-color: white;
+}
+.log form{
+    margin-top: 30px;
+}
+body{
+    background: url("doctor.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.log button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+*{
+    font-family: "poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body .div{
+    background-color: rgba(0, 0, 0, 0.164);
+    min-height: 100vh;
+    width: 100%;
+   top: 500px;
+
+}
+body div .login{
+    background-color:rgba(135, 206, 250, 0.452);
+    border-radius: 6px;
+    z-index: 12;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 8rem;
+    width: 15%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    display: flex;
+    flex-direction: column;
+}
+form label span{
+text-align: left;
+padding: 1rem 0;
+}
+input{
+    border: 1px solid var(--text-color);
+    outline: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+}
+input :focus{
+    border: 2px soid var(--main-color);
+}
+button{
+    margin: 1rem 0;
+    background-color: rgba(135, 206, 250, 0.425);
+    color: black;
+    padding: 12px 18px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.336);
+    transition: 0.5s;
+}
+form a{
+    color: blue;
+}
+footer{
+    
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: rgba(68, 107, 10, 0.966);
+}
+.content{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}    
+.content .logo{
+    width: 70px;
+    border-radius: 50%;
+}
+.content .social{
+   padding: 10px;
+}
+.content .social a{
+    text-decoration: none;
+    color: blueviolet;
+    background: #fff;
+    border-radius: 50%;
+}
+hr{
+    width: 80%;
+    margin: 20px 10%;
+}
+.copyright{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.copyright p{
+    color: white;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 20px 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.308);
+}
+.copyright .link{
+    display: inline;
+    padding: 15px;
+}
+.link a{
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    font-size: 20px;
+}

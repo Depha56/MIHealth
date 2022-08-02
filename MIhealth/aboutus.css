@@ -1,0 +1,149 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ ul li {
+    display: inline;
+    padding: 10px 5px;
+    list-style: none;
+}
+nav{
+    background-color: rgba(55, 90, 4, 0.274);
+    padding-top: 10PX;
+    padding-bottom: 15PX;
+}
+.icon ul li:hover{
+    background-color: rgb(161, 218, 75);
+    color: white;
+}
+.icon ul li a {
+    color: white;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+
+}
+.wrapper nav a li{
+    text-decoration: none;
+}
+.nav{
+    float: right;
+    list-style: none;
+    margin-top: -30px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.nav  li{
+    color: rgb(65, 149, 201);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+nav a li:hover{
+    background-color: whitesmoke;
+    color: rgb(129, 184, 48);
+    text-decoration: none;
+}
+logo{
+    margin-left: 0;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+
+}
+.logo h2{
+    padding-left: 200px;
+    font-size: 25px;
+    color: rgb(9, 155, 247);
+    margin-top: -40px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.about{
+    width: 100%;
+}
+.row{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.about-col-2{
+    flex-basis: 48%;
+}
+.about-col-2 img{
+    width: 500px;
+    border-radius: 20px;
+}
+.about-col-2 h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.about-col-2 p{
+    padding: 10px 0;
+}
+.about-col-3{
+    flex-basis: 29%;
+    box-shadow: 0 0 6px 0 rgb(9, 155, 247);
+    background: rgba(9, 156, 247, 0.452);
+    padding: 20px;
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background:rgba(68, 107, 10, 0.966) ;
+}
+.content{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}    
+.content .logo{
+    width: 70px;
+    border-radius: 50%;
+}
+.content .social{
+   padding: 10px;
+}
+.content .social a{
+    text-decoration: none;
+    color: blueviolet;
+    background: #fff;
+    border-radius: 50%;
+}
+hr{
+    width: 80%;
+    margin: 20px 10%;
+}
+.copyright{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.copyright p{
+    color: white;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 20px 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.308);
+}
+.copyright .link{
+    display: inline;
+    padding: 15px;
+}
+.link a{
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    font-size: 20px;
+}

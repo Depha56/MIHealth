@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ ul li {
+    display: inline;
+    padding: 10px 5px;
+    list-style: none;
+}
+nav{
+    background-color: rgba(55, 90, 4, 0.274);
+    padding-top: 10PX;
+    padding-bottom: 15PX;
+}
+.icon ul li:hover{
+    background-color: rgb(161, 218, 75);
+    color: white;
+}
+.icon ul li a {
+    color: white;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+
+}
+.wrapper nav a li{
+    text-decoration: none;
+}
+.nav{
+    float: right;
+    list-style: none;
+    margin-top: -30px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.nav  li{
+    color: rgb(65, 149, 201);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+nav a li:hover{
+    background-color: whitesmoke;
+    color: rgb(129, 184, 48);
+    text-decoration: none;
+}
+logo{
+    margin-left: 0;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 15px;
+
+}
+.logo h2{
+    padding-left: 200px;
+    font-size: 25px;
+    color: rgb(9, 155, 247);
+    margin-top: -40px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+form{
+    border: groove;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px; 
+}
+input,textarea{
+    width: 90%;
+    font-size: 20px;
+    border: none;
+    background: rgba(115, 188, 233, 0.527);
+    margin-top: 10px;
+}
+input{
+    height: 30px;
+}
+form a{
+    padding: 10px 20px;
+    background: rgba(115, 188, 233, 0.527);
+    border: 2px solid rgba(115, 188, 233, 0.527);
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+form a:hover{
+    color: rgb(133, 133, 228);
+    background: transparent;
+}

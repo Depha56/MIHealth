@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ ul li {
+    display: inline;
+    padding: 10px 5px;
+    list-style: none;
+}
+nav{
+    background-color: rgba(189, 218, 145, 0.425);
+    padding-top: 10PX;
+    padding-bottom: 15PX;
+}
+.icon ul li:hover{
+    background-color: rgb(161, 218, 75);
+    color: white;
+}
+.icon ul li a {
+    color: white;
+    text-decoration: none;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+
+}
+.wrapper nav a li{
+    text-decoration: none;
+}
+.nav{
+    float: right;
+    list-style: none;
+    margin-top: -30px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.nav  li{
+    color: rgb(65, 149, 201);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+nav a :hover{
+    background-color: whitesmoke;
+    color: rgb(129, 184, 48);
+    text-decoration: none;
+}
+.logo img{
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 15px;
+
+}
+.logo h2{
+    padding-left: 200px;
+    font-size: 15px;
+    color: rgb(140, 197, 233);
+    margin-top: -40px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.card-container{
+    margin-left: 200px;
+    margin-top: -5px;
+    height: 50px;
+    margin-right: 600px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-row-gap: 15px;
+    grid-column-gap: 30px;
+}
+.card{
+    background-color: rgb(230, 243, 211);
+    font-size: 15px;
+    width: 280px;
+    padding-left: 10px;
+    text-align: center;
+    box-shadow: 10px 10px rgb(187,202,163,0.9);
+    margin: 20px;
+    margin-right: 10px;
+    
+}
+.card a:hover{
+    color:greenyellow;
+    box-shadow: 10px 10px rgb(187,202,163,0.9);
+}
+.card a{
+    color: blue;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    margin-top: 745px;
+    background:rgba(68, 107, 10, 0.966);
+}
+.content{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}    
+.content .logo{
+    width: 70px;
+    border-radius: 50%;
+}
+.content .social{
+   padding: 10px;
+}
+.content .social a{
+    text-decoration: none;
+    color: blueviolet;
+    background: #fff;
+    border-radius: 50%;
+}
+hr{
+    width: 80%;
+    margin: 20px 10%;
+}
+.copyright{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.copyright p{
+    color: white;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 20px 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.308);
+}
+.copyright .link{
+    display: inline;
+    padding: 15px;
+}
+.link a{
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    font-size: 20px;
+}
